@@ -5,6 +5,11 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Gem to hash the passwords
 gem 'bcrypt', '3.1.11'
+# Fake users
+gem 'faker',          '1.6.6'
+# Pagination gems
+gem 'will_paginate',           '3.1.0'
+gem 'bootstrap-will_paginate', '0.0.10'
 # Bootstrap gem for UI
 gem 'bootstrap-sass', '3.3.6'
 # Add integration tests
