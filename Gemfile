@@ -4,12 +4,16 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Gem to hash the passwords
-gem 'bcrypt', '3.1.11'
+gem 'bcrypt'
 # Fake users
 gem 'faker',          '1.6.6'
 # Pagination gems
 gem 'will_paginate',           '3.1.0'
 gem 'bootstrap-will_paginate', '0.0.10'
+# Image upload 
+gem 'carrierwave'
+gem 'mini_magick',             '4.5.1'
+gem 'fog'
 # Bootstrap gem for UI
 gem 'bootstrap-sass', '3.3.6'
 # Add integration tests
